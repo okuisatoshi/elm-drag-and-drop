@@ -25,9 +25,9 @@ update msg model =
           { model | x0 = -1, y0 = -1 }
       Down x y ->
           { model | x0 = x, y0 = y}
-      Move x y ->
+      Move x1 y1 ->
           if model.x0 >= 0
-          then { model | x = model.x + x - model.x0, y = model.y + y - model.y0}
+          then { model | x = model.x + x1 - model.x0, y = model.y + y1 - model.y0}
           else model
 
 
