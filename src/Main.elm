@@ -1,3 +1,5 @@
+-- offsetX/Yの変化で移動量を算出
+-- 非常にスムーズに動く
 module Main exposing (main)
 
 import Browser

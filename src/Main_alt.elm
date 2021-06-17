@@ -1,4 +1,7 @@
-module Main exposing (main)
+-- offsetX/Yの変化で移動量を求める代わりに
+-- clientX/Y - offsetX/Yを用いる別解
+-- これもスムーズに動く
+module Main_alt exposing (main)
 
 import Browser
 import Html exposing (Html, div, text)
