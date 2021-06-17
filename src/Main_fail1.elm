@@ -1,5 +1,6 @@
 -- offsetX/Yの変化の代わりにclientX/Yの変化で移動量を求める方法
--- これは全然スムーズに動かない失敗
+-- これは全然スムーズに動かない失敗作
+-- 同様にscreenX/Yの変化やpageX/Yの変化で移動量を求める方法もスムーズにいかない
 module Main_fail exposing (main)
 
 import Browser
