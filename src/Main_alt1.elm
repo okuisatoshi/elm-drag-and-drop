@@ -1,7 +1,7 @@
 -- offsetX/Yの変化で移動量を求める代わりに
--- clientX/Y - offsetX/Yを用いる別解
+-- clientX/Y - 最初の時点のoffsetX/Yを用いる別解
 -- これもスムーズに動く
-module Main_alt exposing (main)
+module Main_alt1 exposing (main)
 
 import Browser
 import Html exposing (Html, div, text)
