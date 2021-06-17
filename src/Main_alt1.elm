@@ -1,5 +1,5 @@
 -- offsetX/Yの変化で移動量を求める代わりに
--- clientX/Y - 最初の時点のoffsetX/Yを用いる別解
+-- 現在のclientX/Y - 最初の時点のoffsetX/Yで現在の左上の座標を求める別解
 -- これもスムーズに動く
 module Main_alt1 exposing (main)
 
